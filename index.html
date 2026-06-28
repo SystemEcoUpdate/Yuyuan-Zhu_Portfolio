@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yuyuan Zhu — Portfolio</title>
+  <meta name="description" content="Yuyuan Zhu portfolio website for commercial projects, art projects and operation design." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <aside class="sidebar" aria-label="Portfolio navigation">
+      <a class="site-name" href="#" data-home>Yuyuan Zhu</a>
+
+      <nav class="category-nav" id="categoryNav"></nav>
+
+      <div class="profile-links">
+        <a href="#about" data-open-about id="aboutLink">About Me</a>
+        <a href="mailto:your-email@example.com">Email</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+      </div>
+      <p class="copyright">© Yuyuan Zhu</p>
+    </aside>
+
+    <main class="content" id="content" tabindex="-1"></main>
+  </div>
+
+  <section class="about-panel" id="aboutPanel" aria-hidden="true">
+    <button class="close-about" type="button" data-close-about aria-label="Close About Me">×</button>
+    <div class="about-card">
+      <p class="eyebrow" id="aboutEyebrow">ABOUT ME</p>
+      <h2 id="aboutTitle">A designer working across visual storytelling, brand systems and experience-led communication.</h2>
+      <p id="aboutBody">
+        Replace this paragraph with your short bio. You can introduce your background, creative direction, core skills, preferred media, current study or work experience, and the type of internship, collaboration or opportunity you are looking for.
+      </p>
+      <p class="about-note" id="aboutNote">Edit <code>script.js</code> to update your project content, image paths, email and social links.</p>
+    </div>
+  </section>
+
+  <section class="project-lightbox" id="lightbox" aria-hidden="true" aria-label="Project preview">
+    <button class="lightbox-close" type="button" aria-label="Close project view">×</button>
+    <div class="lightbox-meta">
+      <p id="lightboxCategory"></p>
+      <h2 id="lightboxTitle"></h2>
+      <span id="lightboxCounter"></span>
+    </div>
+    <div class="lightbox-gallery" id="lightboxGallery"></div>
+    <p class="lightbox-tip" id="lightboxTip">Scroll vertically to browse all project pages. Click the top-right button to close.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
