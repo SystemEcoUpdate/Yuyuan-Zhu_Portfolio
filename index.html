@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="Yuyuan Zhu — selected art, installation and speculative design projects." />
+  <title>Yuyuan Zhu — Selected Works</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Inter+Tight:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="intro" id="intro" aria-label="Portfolio introduction">
+    <div class="intro-grid" aria-hidden="true"></div>
+    <div class="intro-pattern" aria-hidden="true"></div>
+
+    <header class="intro-topline">
+      <span>YUYUAN ZHU</span>
+      <span>PORTFOLIO / 2026</span>
+      <span>LONDON ↔ SHANGHAI</span>
+    </header>
+
+    <div class="intro-copy">
+      <p class="intro-kicker">ART · INSTALLATION · SPECULATIVE PRACTICE</p>
+      <h1 class="intro-title" aria-label="Yuyuan Zhu">
+        <span>YUYUAN</span>
+        <span class="outline-word">ZHU</span>
+      </h1>
+      <p class="intro-statement">
+        Research-led work tracing possible futures between technology, ecology,
+        material memory and more-than-human life.
+      </p>
+    </div>
+
+    <div class="intro-wheel" id="introWheel" aria-hidden="true">
+      <svg class="intro-wheel-svg" viewBox="0 0 240 240" role="presentation">
+        <defs>
+          <path id="introCirclePath" d="M 120,120 m -72,0 a 72,72 0 1,1 144,0 a 72,72 0 1,1 -144,0" />
+        </defs>
+        <text class="intro-wheel-text">
+          <textPath href="#introCirclePath" startOffset="0%">SELECTED WORKS • POINT OF VIEW • ENTER PORTFOLIO • </textPath>
+        </text>
+      </svg>
+      <div class="wheel-center-dot"></div>
+      <div class="wheel-small-dot"></div>
+    </div>
+
+    <div class="intro-bottom">
+      <div class="intro-index">
+        <span>SELECTED WORKS</span>
+        <span>MOVE / TOUCH TO SHIFT THE FIELD</span>
+      </div>
+      <button class="enter-button" id="enterButton" type="button">
+        <span>ENTER INDEX</span>
+        <span class="enter-arrow">↘</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="site" id="site" aria-hidden="true">
+    <header class="site-header">
+      <button class="brand" id="brandButton" type="button" aria-label="Return to introduction">
+        <span>YUYUAN ZHU</span>
+        <sup>©26</sup>
+      </button>
+      <div class="header-center">SELECTED ART WORKS</div>
+      <nav class="header-links" aria-label="Profile links">
+        <button type="button" id="aboutButton">ABOUT</button>
+        <a href="mailto:yuyuanzhu4449@outlook.com">EMAIL</a>
+        <a href="https://www.instagram.com/eos_bioyyyy/" target="_blank" rel="noreferrer">IG ↗</a>
+      </nav>
+    </header>
+
+    <nav class="project-strip" id="projectStrip" aria-label="Project index"></nav>
+
+    <main class="works" id="works">
+      <section class="works-intro">
+        <p class="micro-label">INDEX / SELECTED PRACTICE</p>
+        <h2>Selected works across speculative devices, biodesign, installation and spatial narrative.</h2>
+        <div class="works-intro-meta">
+          <p>MA Information Experience Design<br />Royal College of Art</p>
+          <p>BA Art & Science<br />China Academy of Art</p>
+        </div>
+      </section>
+      <section class="project-grid" id="projectGrid" aria-label="Selected projects"></section>
+    </main>
+
+    <footer class="site-footer">
+      <p>YUYUAN ZHU — ART / DESIGN / RESEARCH</p>
+      <p>© 2026</p>
+      <a href="#works">BACK TO TOP ↑</a>
+    </footer>
+  </div>
+
+  <section class="project-modal" id="projectModal" aria-hidden="true" aria-label="Project detail">
+    <header class="modal-bar">
+      <button class="modal-close" id="projectClose" type="button">← INDEX</button>
+      <p id="modalCounter"></p>
+      <button class="modal-next" id="projectNext" type="button">NEXT →</button>
+    </header>
+    <div class="project-detail" id="projectDetail"></div>
+  </section>
+
+  <section class="about-modal" id="aboutModal" aria-hidden="true" aria-label="About Yuyuan Zhu">
+    <header class="modal-bar">
+      <button class="modal-close" id="aboutClose" type="button">← CLOSE</button>
+      <p>ABOUT / PROFILE</p>
+      <span></span>
+    </header>
+    <div class="about-content">
+      <p class="micro-label">YUYUAN ZHU / DESIGNER & ARTIST</p>
+      <h2>Working between visual communication, speculative design and experience-led research.</h2>
+      <div class="about-grid">
+        <div class="about-lead">
+          <p>I’m a designer with a BA in Art and Science from the China Academy of Art, where I specialised in biodesign and speculative design, and I am currently studying Information Experience Design at the Royal College of Art.</p>
+          <p>Much of my practice explores possible futures through a more-than-human perspective. I often begin with existing scientific knowledge and use it as a point of departure for imagining what might come next.</p>
+        </div>
+        <div class="about-column">
+          <p class="micro-label">EDUCATION</p>
+          <p>2025–2026<br />Royal College of Art<br />MA Information Experience Design</p>
+          <p>2021–2025<br />China Academy of Art<br />BA Art and Science</p>
+        </div>
+        <div class="about-column">
+          <p class="micro-label">CONTACT</p>
+          <p><a href="mailto:yuyuanzhu4449@outlook.com">Email ↗</a></p>
+          <p><a href="https://www.linkedin.com/in/yuyuan-zhu-826a64376/" target="_blank" rel="noreferrer">LinkedIn ↗</a></p>
+          <p><a href="https://www.instagram.com/eos_bioyyyy/" target="_blank" rel="noreferrer">Instagram ↗</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
